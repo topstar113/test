@@ -20,6 +20,10 @@ exports.create = async (req, res) => {
 
 exports.get = async (req, res) => {
   console.log('asdf');
+  console.log('asdf');
+  console.log('asdf');
+  console.log('asdf');
+
   try {
     const data = await User.findOne({
       where: {id: req.body.id}
